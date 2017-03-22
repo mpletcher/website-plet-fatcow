@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Marcos Pletcher pletcher.marcos@icloud.com -->
+<rss version="2.0">
+  <channel>
+    <title />
+    <link>http://www.mpletcher.com</link>
+    <description />
+    <item>
+      <guid>http://www.mpletcher.com/</guid>
+      <title>Default</title>
+      <link>http://www.mpletcher.com/</link>
+      <description />
+    </item>
+  </channel>
+</rss>
+<!--<guid value="f4d02238-1e6d-4df6-a0dd-41aa92fdec6e" />-->

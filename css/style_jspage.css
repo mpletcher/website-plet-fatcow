@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 100px; /* bottom = footer height */
+	padding: 0px;
+	bottom: 0;
+	margin-bottom: 0px;
+	min-width: 60%;
+	width: 100%;
+	max-width: 1400px;
+	font-family: 'Lato', Arial, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.26, rgb(255, 255, 255)),
+	color-stop(0.73, rgb(250, 250, 250))
+	);
+	background-image: -o-linear-gradient(bottom, rgb(255, 255, 255) 26%, rgb(250, 250, 250) 73%);
+	background-image: -moz-linear-gradient(bottom, rgb(255, 255, 255) 26%, rgb(250, 250, 250) 73%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255) 26%, rgb(250, 250, 250) 73%);
+	background-image: -ms-linear-gradient(bottom, rgb(255, 255, 255) 26%, rgb(250, 250, 250) 73%);
+	background-image: linear-gradient(to bottom, rgb(255, 255, 255) 26%, rgb(250, 250, 250) 73%);
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	
+}
+
+
+.header-logo {
+	display: block;
+	width: 331px;
+	height: 79px;
+	background: url(../imgs/header-jspage.png) no-repeat;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 0px;
+}
+ 
+section {
+	margin: 0 auto;
+    text-align:left;
+	min-width: 600px;
+	max-width: 80%;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+section p {
+	font-size: 15px;
+	margin: 10px 0px 20px 0px;
+}
+
+section article  {
+	text-align: left;
+	font-weight: normal;
+	margin: 0px 0px 20px 20px;
+	color: rgb(51,51,51);
+}
+
+article > p {
+	font-family: 'Tinos', sans-serif;
+	font-weight: 400;
+	font-size: 14px; 
+	float: left;
+	color: rgb(51,51,51);
+}
+
+h1, h2 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 100;
+	margin: 25px 0 0 0;
+}
+
+h1 {
+	color: #4094C1;
+	font-size: 28px;
+	letter-spacing: 3px;
+	line-height: 35px;
+}
+
+h2 {
+	font-size: 22px;
+	color: #333;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 300;
+	color: #333;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+a:link {
+	color: #0078ca;
+}
+
+a:visited {
+	color: #0078ca;
+}
+
+a:hover {
+	color: #ea9629;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #E1B152;
+}
+
+.form {
+	margin: 10px 0px 0 0;
+	text-align: center;
+	
+}
+
+hr {
+	margin: 50px 0 0px 70px;
+	
+}
+
+
+/* Gradient transparent - color - transparent */ 
+	hr.style-two { 
+	border: 0; 
+	width: 85%;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+		
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	background-color: rgba(26,32,44, 0.3);
+    height: 70px;
+    width: 100%;
+}
+
+footer address {
+	text-align: center;
+	font-style: normal;
+	font-size: 11px;
+	color: #fff;
+}
